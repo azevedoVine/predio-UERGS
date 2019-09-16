@@ -1,0 +1,266 @@
+#inicio{
+	background-color: #066c47ff;
+	color: white;
+}
+
+#inicio:hover{
+	background-color: #889;
+	color: white;
+}
+
+.sect-historia {
+	margin-top: -530px;
+	height: 600px;
+}
+
+.sect-arquit{
+    background-color: #eee;
+	height: 500px;
+    padding-top: 20px;
+}
+
+#galeria{
+    margin-top: 3%;
+	height: 600px;
+}
+
+.container{
+	height: 100%;
+}
+
+.font-titulo{
+	color: #066c47ff;
+	font-size: 40px;
+}
+
+.content{
+	width: 35%;
+	position: absolute;
+	right: 10%;
+}
+
+#imag{
+	position: absolute;
+	left: 10%;
+}
+
+.content1{
+	width: 45%;
+	position: absolute;
+	left: 5%;
+}
+
+#imag1{
+	position: absolute;
+	right: 10%;
+}
+
+.mapa{
+	position: absolute;
+	right: 10%;
+}
+
+.local{
+	width: 22%;
+	position: absolute;
+	left: 10%;
+	font-size: 10px;
+}
+
+p{
+	text-align: justify;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.linkmenu{
+    color:white;
+    text-decoration: none;
+}
+
+.linkmenu:hover{
+    color: lightblue;
+}
+.negrito{
+    font-weight: bold;
+        margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.destaque{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #066c47ff;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 3%;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.logo{
+	width: 25%;
+	height: 20%;
+	margin-top: 10px;
+}
+    
+.header-menu
+	{
+	padding-bottom: 10px;
+    }
+    
+.dm-menu{
+    --dm-item-hover-bg: #889;
+	--dm-item-hover-color: #eee;
+}
+
+* {box-sizing: border-box;}
+
+.img-comp-container {
+    position: relative;
+}
+            
+.img-comp-img {
+        position: absolute;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+}
+            
+.img-comp-img img {
+        display: block;
+        vertical-align: middle;
+}
+            
+.img-comp-slider {
+        position: absolute;
+        z-index: 9;
+        cursor: ew-resize;
+        width: 40px;
+        height: 40px;
+        background-color: #066c47ff;
+        opacity: 0.7;
+        border-radius: 50%;
+}
+
+.img-princicpal1{
+    height: 400px;
+    margin-left: 31%;
+}
+
+.img-princicpal{
+    height: 400px;
+	text-align: center;
+}
+
+.decricao-principal{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Galeria CSS */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* line 12, ../sass/demo.scss */
+  a {
+    color: #4ab19a;
+  }
+  
+  /* line 16, ../sass/demo.scss */
+  .clear {
+    clear: both;
+    float: none;
+    width: 100%;
+  }
+  
+  /* line 22, ../sass/demo.scss */
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* line 32, ../sass/demo.scss */
+  .container .gallery a img {
+    float: left;
+    width: 20%;
+    height: auto;
+    border: 2px solid #fff;
+    -webkit-transition: -webkit-transform .15s ease;
+    -moz-transition: -moz-transform .15s ease;
+    -o-transition: -o-transform .15s ease;
+    -ms-transition: -ms-transform .15s ease;
+    transition: transform .15s ease;
+    position: relative;
+  }
+  /* line 46, ../sass/demo.scss */
+  .container .gallery a:hover img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 5;
+  }
+  /* line 57, ../sass/demo.scss */
+  .container .gallery a.big img {
+    width: 40%;
+  }
+  
+  /* line 65, ../sass/demo.scss */
+  .align-center {
+    text-align: center;
+  }
+
+.galeria{
+    display: flex;
+    margin-left: 13%;
+}
+.imagem-horizontal{
+    width: 300px !important;  /*Sorry, Lucelia! Foi o unico jeito que deu*/
+    height: 200px !important;
+}  
+.imagem-vertical{
+    width: 150px !important;
+    height: 200px !important;
+}
+
+.botao-arqui{
+    margin-left: 10%;
+    margin-top: 29%;
+    background-color: #066c47ff;
+    color:white;
+    height: 30px;
+    border-radius: 0.9ch;
+}
+
+.botao-arqui:hover{
+    background-color: white;
+    color: #066c47ff;
+}
+
+hr{
+	 background-color: #066c47ff;
+	 height: 3px;
+}
+
+.sect-ar{
+	margin-top: -530px;
+}
+
+.link-site{
+    text-decoration: none;
+
+}
